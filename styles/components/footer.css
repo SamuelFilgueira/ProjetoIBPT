@@ -1,0 +1,33 @@
+.footer {
+    background-color: #7c818a;
+    padding: 1rem 0;
+}
+
+.footer .container-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container-footer {
+    padding: 0 1.5rem;
+}
+
+.footer-left .logo {
+    max-width: 100px;
+}
+
+.footer-right {
+    display: flex;
+    gap: 1rem;
+}
+
+.footer-right .social-icon {
+    width: 30px;
+    height: 30px;
+}
+
+.copy{
+  text-align: center;
+  font-size: 12px;
+}

@@ -1,0 +1,70 @@
+.container-register {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding: 0 1rem;
+}
+
+.main-register {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  padding: 0 2rem;
+}
+
+.register_options {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 3vw;
+  color: var(--laranja);
+  font-weight: 500;
+  margin-bottom: 5vh;
+  text-shadow: rgba(0, 0, 0, 0.498039) -1px -1px 0px,
+    rgba(0, 0, 0, 0.498039) -1px 1px 0px, rgba(0, 0, 0, 0.498039) 1px 1px 0px,
+    rgba(0, 0, 0, 0.498039) 1px -1px 0px;
+}
+
+.register-form {
+  width: 95%;
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 2rem;
+  background-color: #f7f7f7;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
+    rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+.form-group {
+  margin-bottom: 1rem;
+}
+
+label {
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+input, select {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  width: 100%;
+  padding: 0.75rem;
+  border: none;
+  background-color: #333;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #555;
+}

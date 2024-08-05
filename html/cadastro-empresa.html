@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../styles/main.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div id="header-placeholder"></div>
+
+    <main class="main-register">
+      <div class="register_options">
+        <h3>INCLUIR EMPRESA</h3>
+      </div>
+      <div class="container-register">
+        <form class="login-form">
+          <div class="form-group">
+            <label for="resp">Responsável:</label>
+            <input type="text" id="resp" name="resp" required />
+          </div>
+          <div class="form-group">
+            <label for="cnpj">CNPJ:</label>
+            <input type="text" id="cnpj" name="cnpj" required />
+          </div>
+          <div class="form-group">
+            <label for="tel">Telefone:</label>
+            <input type="tel" id="tel" name="tel" required />
+          </div>
+          <div class="form-group">
+            <label for="regime-tributario">Regime Tributário:</label>
+            <select id="regime-tributario" name="regime-tributario" required>
+              <option value="" selected></option>
+              <option value="simples-nacional">Simples Nacional</option>
+              <option value="lucro-presumido">Lucro Presumido</option>
+              <option value="lucro-arbitrado">Lucro Arbitrado</option>
+              <option value="lucro-real">Lucro Real</option>
+              <option value="imune-isento">Imune/Isento</option>
+            </select>
+          </div>
+          <button type="submit">Cadastrar</button>
+        </form>
+      </div>
+    </main>
+
+    <div id="footer-placeholder"></div>
+
+    <script type="module" src="../js/main.js"></script>
+  </body>
+</html>
